@@ -1,0 +1,56 @@
+.container {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.header1 {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    right:35%;
+    color: rgb(252, 234, 73);
+}
+  
+.phone {
+    position: absolute;
+    text-align: center;
+    color: rgb(252, 234, 73);
+    top: 18%;
+    right: 43%;
+    padding: 0.5rem;
+    border: solid rgb(252, 234, 73);
+    border-radius: 5px;
+}
+
+.content1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40%;
+    right: 38%;
+    line-height: 2;
+}
+
+.content2 {
+    position: absolute;
+    max-width: 600px;
+    text-align: justify;
+    color: white;
+    top: 65%;
+    right: 31%;
+    font-size: 1rem;
+    padding: 2rem;
+    border: 1px solid;
+    border-image: linear-gradient(
+        to bottom, 
+        rgb(252, 234, 73), 
+        rgba(0, 0, 0, 0)
+      ) 1 2 1;
+    border-radius: 20px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
