@@ -11,8 +11,9 @@
   "dependencies": {
     "framer-motion": "^10.12.16",
     "next": "13.4.4",
-    "particlesjs": "^2.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-tsparticles": "^2.10.1",
+    "tsparticles": "^2.10.1"
   }
 }

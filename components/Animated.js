@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Animated = () => {
 
     return (
-    <div>
+    <div className={styles.container}>
         <motion.div className={styles.meterior}
             animate={{
             y: [ 0, 20, 0 ],
@@ -60,7 +60,7 @@ const Animated = () => {
             borderRadius: ["0%", "0%", "50%", "50%", "0%"]
         }}
         transition={{
-            duration: 120,
+            duration: 100,
             repeat: Infinity,
         }}          
         >
