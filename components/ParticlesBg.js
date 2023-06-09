@@ -37,15 +37,15 @@ const ParticlesBg = () => {
                             enable: false,
                             mode: "repulse",
                         },
-                        resize: false,
+                        resize: true,
                     },
                     modes: {
                         push: {
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
-                            duration: 0.4,
+                            distance: 100,
+                            duration: 1,
                         },
                     },
                 },

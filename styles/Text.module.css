@@ -1,13 +1,17 @@
 .container {
     font-family: sans-serif;
     font-size: 1.5rem;
+    /* z-index: 100; */
 }
 
 .header1 {
     position: absolute;
     text-align: center;
     top: 10%;
-    right:35%;
+    left: 0; 
+    right: 0; 
+    margin: auto;
+    width: fit-content;
     color: rgb(252, 234, 73);
 }
   
@@ -16,7 +20,10 @@
     text-align: center;
     color: rgb(252, 234, 73);
     top: 18%;
-    right: 43%;
+    left: 0; 
+    right: 0; 
+    margin: auto;
+    width: fit-content;
     padding: 0.5rem;
     border: 1px solid rgb(252, 234, 73);
     border-radius: 5px;
@@ -27,7 +34,10 @@
     text-align: center;
     color: white;
     top: 40%;
-    right: 38%;
+    left: 0; 
+    right: 0; 
+    margin: auto;
+    width: fit-content;
     line-height: 2;
 }
 
@@ -37,7 +47,6 @@
     text-align: justify;
     color: white;
     top: 65%;
-    right: 31%;
     font-size: 1rem;
     padding: 2rem;
     border: 1px solid;
@@ -46,6 +55,9 @@
         rgb(252, 234, 73), 
         rgba(0, 0, 0, 0)
       ) 1;
+    left: 0; 
+    right: 0; 
+    margin: auto;
 }
 
 .testimonial {
