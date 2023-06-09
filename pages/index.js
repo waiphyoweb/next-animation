@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 import Animated from '@/components/Animated'
 import Text from '@/components/Text'
 import ParticlesBg from '@/components/ParticlesBg'
@@ -17,8 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ParticlesBg />
-      <Text  />
-      <Animated  />
+      <Text />
+      <Animated />
     </>
   )
 }
